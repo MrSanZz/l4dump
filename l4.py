@@ -148,12 +148,12 @@ def generate_self_signed_cert(cert_file="server.crt", key_file="server.key"):
 
 colors = {
     "first": '\033[0m',
-    "second": '\033[1;32m'
+    "second": '\033[0m'
 }
 
 class color:
     def red():
-        return '\033[0m'
+        return '\033[1;91m'
 
 import socks
 
